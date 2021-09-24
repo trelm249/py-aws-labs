@@ -11,8 +11,8 @@ def translate_text(): #declare the function
 
     print(response)
 
-def main():
-    translate_text()
+def main(): # This is the definition of the primary function that calls other functions.
+    translate_text() # The translate_text function is called
 
-if __name__=="__main__":
+if __name__=="__main__": # Invoking main
     main()
